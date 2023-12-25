@@ -1,12 +1,18 @@
 ARG BUILD_FROM
-FROM $BUILD_FROM AS builder
+FROM $BUILD_FROM
 
 RUN \
   apk add --no-cache \
   nodejs-current \
-  npm
+  npm \
+  git
 
-COPY rootfs /
+# temporarily clone repo
+RUN git clone https://github.com/matt8707/ha-fusion /rootfs
+RUN rm -rf /rootfs/data/*
+WORKDIR /rootfs
+
+# COPY rootfs /
 
 RUN npm install --verbose
 RUN npm run build --no-cache
