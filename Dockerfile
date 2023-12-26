@@ -7,11 +7,12 @@ RUN \
   npm \
   git
 
-# temporarily clone repo
+# remote
 RUN git clone https://github.com/matt8707/ha-fusion /rootfs
 RUN rm -rf /rootfs/data/*
 WORKDIR /rootfs
 
+# # local
 # COPY rootfs /
 
 RUN npm install --verbose
