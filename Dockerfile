@@ -19,6 +19,7 @@ RUN npm run build --no-cache
 RUN npm prune --omit=dev
 
 RUN ln -s build/client/themes /themes
+RUN ln -s /rootfs/data /data
 
 ENV PORT 5050
 ENV NODE_ENV=production
