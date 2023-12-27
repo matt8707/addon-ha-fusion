@@ -1,18 +1,16 @@
 
 name: Fusion
-version: 2023.12.4
+version: 2023.12.5
 slug: ha_fusion
 description: A modern, easy-to-use and performant custom Home Assistant dashboard
-url: "https://github.com/matt8707/addon-ha-fusion"
+url: https://github.com/matt8707/addon-ha-fusion
 init: false
 arch:
   - aarch64
   - amd64
-  - armhf
-  - armv7
-  - i386
 apparmor: true
 ingress: true
 ingress_port: 5050
 ingress_stream: true
 panel_icon: mdi:atom
+image: matt8707/addon-ha-fusion-{arch}
