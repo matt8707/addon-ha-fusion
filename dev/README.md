@@ -27,12 +27,16 @@ cat ~/.ssh/id_rsa.pub
 # Copy addon-ha-fusion
 rsync -avz \
   ~/Developer/addon-ha-fusion \
-  root@${VM_IP}:/root/addons/
-
-# Copy rootfs
+  root@${VM_IP}:/root/addons/ && \
 rsync -avz \
   ~/Developer/ha-fusion/ \
   --exclude 'node_modules' \
   --exclude '.git' \
+  --exclude '.env' \
   root@${VM_IP}:/root/addons/addon-ha-fusion/rootfs
 ```
+
+## Important
+
+* Use **local** and comment out **remote** in `Dockerfile`
+* Comment out `image:` in `config.yaml`
