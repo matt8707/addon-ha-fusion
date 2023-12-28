@@ -2,4 +2,4 @@
 
 echo "Starting Fusion..."
 
-node build
+node server.js
