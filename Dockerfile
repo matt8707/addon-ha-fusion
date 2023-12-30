@@ -10,7 +10,6 @@ RUN \
 # remote
 RUN git clone https://github.com/matt8707/ha-fusion /rootfs
 RUN rm -rf /rootfs/data/*
-RUN rm -rf /rootfs/.env
 WORKDIR /rootfs
 
 # # local
