@@ -22,7 +22,7 @@ RUN npm prune --omit=dev
 RUN ln -s build/client/themes /themes
 RUN ln -s /rootfs/data /data
 
-ENV PORT 5050
+ENV PORT 8099
 ENV NODE_ENV=production
 ENV ADDON=true
 
