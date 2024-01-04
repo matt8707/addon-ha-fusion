@@ -3,6 +3,10 @@
 profile fusion flags=(attach_disconnected,mediate_deleted) {
   #include <abstractions/base>
 
+  # Network for HA supervised, issue #5
+  network,
+  deny network raw,
+
   # Capabilities
   file,
   signal (send) set=(kill,term,int,hup,cont),
