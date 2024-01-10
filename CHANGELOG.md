@@ -1,18 +1,16 @@
 ## What's Changed
 
-* Add basic support for fan by @mape in <https://github.com/matt8707/ha-fusion/pull/86>
-* Make drawer responsive by @janiskelemen in <https://github.com/matt8707/ha-fusion/pull/84>
-* Make buttons and sections responsive on mobile by @janiskelemen in <https://github.com/matt8707/ha-fusion/pull/87>
-* update mobile support by @matt8707 in <https://github.com/matt8707/ha-fusion/pull/92>
-* Fix history infinite loop by @matt8707 in <https://github.com/matt8707/ha-fusion/pull/98>
-* Add person image api by @matt8707 in <https://github.com/matt8707/ha-fusion/pull/99>
-* Bugfix: Show Details on Interaction Toggle Retention by @xrolfex in <https://github.com/matt8707/ha-fusion/pull/100>
-* Update mobile support by @matt8707 in <https://github.com/matt8707/ha-fusion/pull/101>
-* show_details_on_interaction -> show_more_info by @matt8707 in <https://github.com/matt8707/ha-fusion/pull/102>
-* Add onoff light by @matt8707 in <https://github.com/matt8707/ha-fusion/pull/103>
+* Fix scale and position for cameras with non 16:9 aspect ratio by @mape in <https://github.com/matt8707/ha-fusion/pull/108>
+* Adjust 12hr sidebar time, closes #104 by @matt8707 in <https://github.com/matt8707/ha-fusion/pull/110>
+* Change camera scaling from cover to contain by @mape in <https://github.com/matt8707/ha-fusion/pull/109>
+* Add input_datetime and datetime button support by @matt8707 in <https://github.com/matt8707/ha-fusion/pull/118>
+* Add sidebar timer name, closes #107 by @matt8707 in <https://github.com/matt8707/ha-fusion/pull/122>
+* Optimize loading of icons by @matt8707 in <https://github.com/matt8707/ha-fusion/pull/131>
+* Improve entity select dropdown performance by @matt8707 in <https://github.com/matt8707/ha-fusion/pull/133>
+* Add 'text' and 'input_text' button support by @matt8707 in <https://github.com/matt8707/ha-fusion/pull/134>
+* Add 'counter' button modal support by @matt8707 in <https://github.com/matt8707/ha-fusion/pull/135>
+* Add state precision modal options by @matt8707 in <https://github.com/matt8707/ha-fusion/pull/136>
+* Add 'todo' button modal support by @matt8707 in <https://github.com/matt8707/ha-fusion/pull/140>
+* Add support for 'close_popup' event, closes #138 by @matt8707 in <https://github.com/matt8707/ha-fusion/pull/141>
 
-## New Contributors
-
-* @mape made their first contribution in <https://github.com/matt8707/ha-fusion/pull/86>
-
-**Full Changelog**: <https://github.com/matt8707/ha-fusion/compare/2024.1.1...2024.1.2>
+**Full Changelog**: <https://github.com/matt8707/ha-fusion/compare/2024.1.2...2024.1.3>
