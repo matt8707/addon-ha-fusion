@@ -1,16 +1,13 @@
 ## What's Changed
+* Rewrite of camera by @matt8707 in https://github.com/matt8707/ha-fusion/pull/160
+* Update modal animations by @matt8707 in https://github.com/matt8707/ha-fusion/pull/164
+* Add 'map' modal api key notice by @matt8707 in https://github.com/matt8707/ha-fusion/pull/165
+* Add sidebar 'divider' empty option by @matt8707 in https://github.com/matt8707/ha-fusion/pull/166
+* Add 'camera' load animation by @matt8707 in https://github.com/matt8707/ha-fusion/pull/167
+* Add 'button' attribute-as-state option and color picker in modal by @matt8707 in https://github.com/matt8707/ha-fusion/pull/168
+* Add button 'image' modal support by @matt8707 in https://github.com/matt8707/ha-fusion/pull/169
+* Move language data to component by @matt8707 in https://github.com/matt8707/ha-fusion/pull/170
+* Update 'button' climate modal by @matt8707 in https://github.com/matt8707/ha-fusion/pull/172
 
-* Fix scale and position for cameras with non 16:9 aspect ratio by @mape in <https://github.com/matt8707/ha-fusion/pull/108>
-* Adjust 12hr sidebar time, closes #104 by @matt8707 in <https://github.com/matt8707/ha-fusion/pull/110>
-* Change camera scaling from cover to contain by @mape in <https://github.com/matt8707/ha-fusion/pull/109>
-* Add input_datetime and datetime button support by @matt8707 in <https://github.com/matt8707/ha-fusion/pull/118>
-* Add sidebar timer name, closes #107 by @matt8707 in <https://github.com/matt8707/ha-fusion/pull/122>
-* Optimize loading of icons by @matt8707 in <https://github.com/matt8707/ha-fusion/pull/131>
-* Improve entity select dropdown performance by @matt8707 in <https://github.com/matt8707/ha-fusion/pull/133>
-* Add 'text' and 'input_text' button support by @matt8707 in <https://github.com/matt8707/ha-fusion/pull/134>
-* Add 'counter' button modal support by @matt8707 in <https://github.com/matt8707/ha-fusion/pull/135>
-* Add state precision modal options by @matt8707 in <https://github.com/matt8707/ha-fusion/pull/136>
-* Add 'todo' button modal support by @matt8707 in <https://github.com/matt8707/ha-fusion/pull/140>
-* Add support for 'close_popup' event, closes #138 by @matt8707 in <https://github.com/matt8707/ha-fusion/pull/141>
 
-**Full Changelog**: <https://github.com/matt8707/ha-fusion/compare/2024.1.2...2024.1.3>
+**Full Changelog**: https://github.com/matt8707/ha-fusion/compare/2024.1.3...2024.1.4
