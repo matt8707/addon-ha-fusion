@@ -1,15 +1,32 @@
+# required configuration options
 name: Fusion
-version: 2024.1.5
+version: 2024.1.6
 slug: ha_fusion
 description: A modern, easy-to-use and performant custom Home Assistant dashboard
-url: https://github.com/matt8707/addon-ha-fusion
-init: false
 arch:
   - aarch64
   - amd64
   - armv7
+
+# disable the docker default system init
+init: false
+
+# homepage of the add-on
+url: https://github.com/matt8707/addon-ha-fusion
+
+# icon for the menu panel integration
+panel_icon: mdi:atom
+
+# security profile
 apparmor: true
+
+# ingress feature for the add-on
 ingress: true
 ingress_stream: true
-panel_icon: mdi:atom
+
+# ports to expose, null defaults to disabled
+ports:
+  8099/tcp: null
+
+# docker hub
 image: matt8707/addon-ha-fusion-{arch}
