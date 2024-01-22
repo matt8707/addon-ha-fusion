@@ -1,18 +1,12 @@
 ## What's Changed
-* Fix light modal color modes, close #189 by @matt8707 in https://github.com/matt8707/ha-fusion/pull/193
-* Filter leading section name from entity names, closes #194 by @matt8707 in https://github.com/matt8707/ha-fusion/pull/196
-* Update handling hassUrl by @matt8707 in https://github.com/matt8707/ha-fusion/pull/199
-* Add vacuum modal, closes #24 by @matt8707 in https://github.com/matt8707/ha-fusion/pull/204
-* Update person, zone and device_tracker by @matt8707 in https://github.com/matt8707/ha-fusion/pull/205
-* Add 'group' modal support, closes #179 by @matt8707 in https://github.com/matt8707/ha-fusion/pull/206
-* Fix alarm modal styles by @matt8707 in https://github.com/matt8707/ha-fusion/pull/207
-* Update onStates by @matt8707 in https://github.com/matt8707/ha-fusion/pull/208
-* Add 'humidifier' modal support, closes #151 by @matt8707 in https://github.com/matt8707/ha-fusion/pull/210
-* Add 'water_heater' modal support, closes #149 by @matt8707 in https://github.com/matt8707/ha-fusion/pull/214
-* Add 'valve' modal support, closes #152 by @matt8707 in https://github.com/matt8707/ha-fusion/pull/215
-* Add 'lawn_mower' modal support by @matt8707 in https://github.com/matt8707/ha-fusion/pull/216
-* Add 'fan' modal oscillate, direction and preset_mode support by @matt8707 in https://github.com/matt8707/ha-fusion/pull/217
-* Update getSupport function by @matt8707 in https://github.com/matt8707/ha-fusion/pull/218
-* Add port option to addon, closes #171 by @matt8707
+* Remove unused 'youtube' from settings, closes #239 by @matt8707 in https://github.com/matt8707/ha-fusion/pull/240
+* Fix issue where certain icons didn't display properly by @matt8707 in https://github.com/matt8707/ha-fusion/pull/242
+* Update default time logic by @matt8707 in https://github.com/matt8707/ha-fusion/pull/243
+* Implement auth flow by @matt8707 in https://github.com/matt8707/ha-fusion/pull/244
+* Allow section name to be empty, close #129, close #130, close #232 by @matt8707 in https://github.com/matt8707/ha-fusion/pull/245
+* Weather forecast sidebar component by @EvanBarbour3 in https://github.com/matt8707/ha-fusion/pull/175
 
-**Full Changelog**: https://github.com/matt8707/ha-fusion/compare/2024.1.5...2024.1.6
+## New Contributors
+* @EvanBarbour3 made their first contribution in https://github.com/matt8707/ha-fusion/pull/175
+
+**Full Changelog**: https://github.com/matt8707/ha-fusion/compare/2024.1.6...2024.1.7
