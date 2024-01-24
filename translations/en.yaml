@@ -1,7 +1,2 @@
-configuration:
-  hass_url:
-    name: Home Assistant URL
-    description: "Required. This can be any Home Assistant instance. Example: http://192.168.1.100:8123"
-
 network:
   8099/tcp: "Optional. Port to expose externally, bypassing Ingress. Example: 5050"

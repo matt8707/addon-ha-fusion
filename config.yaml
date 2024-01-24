@@ -1,6 +1,6 @@
 # required configuration options
 name: Fusion
-version: 2024.1.7
+version: 2024.1.8
 slug: ha_fusion
 description: A modern, easy-to-use and performant custom Home Assistant dashboard
 arch:
@@ -27,13 +27,6 @@ ingress_stream: true
 # ports to expose, null defaults to disabled
 ports:
   8099/tcp: null
-
-# options
-options:
-  hass_url: null
-
-schema:
-  hass_url: str
 
 # docker hub
 image: matt8707/addon-ha-fusion-{arch}
