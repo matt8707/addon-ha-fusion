@@ -17,6 +17,9 @@ url: https://github.com/matt8707/addon-ha-fusion
 # icon for the menu panel integration
 panel_icon: mdi:atom
 
+# allow non administration user to access integration
+panel_admin: false
+
 # security profile
 apparmor: true
 
