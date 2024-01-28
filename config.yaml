@@ -1,6 +1,6 @@
 # required configuration options
 name: Fusion
-version: 2024.1.10
+version: 2024.1.11
 slug: ha_fusion
 description: A modern, easy-to-use and performant custom Home Assistant dashboard
 arch:
@@ -16,6 +16,9 @@ url: https://github.com/matt8707/addon-ha-fusion
 
 # icon for the menu panel integration
 panel_icon: mdi:atom
+
+# allow non-administration users
+panel_admin: false
 
 # security profile
 apparmor: true
