@@ -1,12 +1,7 @@
 ## What's Changed
-* Button right padding closes #213 by @carsten-walther in https://github.com/matt8707/ha-fusion/pull/281
-* Rename the internal api to avoid conflicts with hass by @matt8707 in https://github.com/matt8707/ha-fusion/pull/293
-* Fix ui bugs in camera, image and map by @matt8707 in https://github.com/matt8707/ha-fusion/pull/294
-* Update proxy and auth flow by @matt8707 in https://github.com/matt8707/ha-fusion/pull/295
-* Select keepFocus fix #220 by @matt8707 in https://github.com/matt8707/ha-fusion/pull/296
-* Fix ipad view bug close #62 by @matt8707 in https://github.com/matt8707/ha-fusion/pull/297
+* Revert loading lang on mount by @matt8707 in https://github.com/matt8707/ha-fusion/pull/301
+* Revert auth flow close #288 close #286 close #285 close #275 close #224 by @matt8707 in https://github.com/matt8707/ha-fusion/pull/302
+* Update date sidebar to support vertical and horizontal layouts. by @xrolfex in https://github.com/matt8707/ha-fusion/pull/291
 
-## New Contributors
-* @carsten-walther made their first contribution in https://github.com/matt8707/ha-fusion/pull/281
 
-**Full Changelog**: https://github.com/matt8707/ha-fusion/compare/2024.1.8...2024.1.9
+**Full Changelog**: https://github.com/matt8707/ha-fusion/compare/2024.1.9...2024.1.10
