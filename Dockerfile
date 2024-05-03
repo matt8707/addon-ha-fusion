@@ -2,7 +2,7 @@
 ARG BUILD_FROM
 
 # first stage, can't use alpine for building armv7
-FROM node:21 AS builder
+FROM node:22 AS builder
 WORKDIR /app
 
 ### remote
